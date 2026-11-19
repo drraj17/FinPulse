@@ -1,7 +1,7 @@
 'use strict';
 const CACHE_NAME = 'finpulse-shell-v16';
 const APP_SHELL = [
-  './Finpulse.html',
+  './index.html',
   './manifest.webmanifest',
   './icons/finpulse-192.png',
   './icons/finpulse-512.png',
