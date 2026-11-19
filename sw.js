@@ -30,7 +30,7 @@ self.addEventListener('fetch', event => {
   if (url.origin !== self.location.origin) return;
 
   // Keep the main app fresh when online, but allow the installed app to open offline.
-  if (url.pathname.toLowerCase().endsWith('/finpulse.html')) {
+  if (url.pathname.toLowerCase().endsWith('/index.html')) {
     event.respondWith(
       fetch(event.request)
         .then(response => {
