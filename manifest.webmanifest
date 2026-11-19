@@ -1,0 +1,30 @@
+{
+  "id": "./Finpulse.html",
+  "name": "FinPulse",
+  "short_name": "FinPulse",
+  "description": "FinPulse personal finance and expense tracker.",
+  "start_url": "./Finpulse.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0b1120",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "./icons/finpulse-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/finpulse-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
