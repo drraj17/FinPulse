@@ -3,7 +3,7 @@
   "name": "FinPulse",
   "short_name": "FinPulse",
   "description": "FinPulse personal finance and expense tracker.",
-  "start_url": "./Finpulse.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "display_override": [
